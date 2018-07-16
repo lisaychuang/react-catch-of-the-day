@@ -35,3 +35,6 @@ The `React.Fragment` component lets you return multiple elements in a `render()`
 ```
 
 You can also use it with the shorthand `<></>` syntax. 
+
+## CSS
+One way to componentize CSS/ inline CSS is to import CSS directly into a component. 
