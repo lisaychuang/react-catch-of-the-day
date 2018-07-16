@@ -46,6 +46,7 @@ You can also use it with the shorthand `<></>` syntax.
 ## CSS
 One way to componentize CSS/ inline CSS is to import CSS directly into a component. 
 
-# Routing with React Router
+# Routing with [React Router](https://reacttraining.com/react-router/)
+React Router is a collection of **navigational components** that compose declaratively with your application. Whether you want to have bookmarkable URLs for your web app or a composable way to navigate in React Native, React Router works wherever React is rendering
 
-
+React Router uses **dynamic routing** - routing that takes place as your app is rendering, not in a configuration or convention outside of a running app. 
