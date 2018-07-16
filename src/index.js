@@ -3,11 +3,11 @@ import {render} from 'react-dom'; //
 
 // need to import components into index.js file before rendering
 // using relative file path
-import StorePicker from './components/StorePicker';
-import App from './components/App';
+import Router from './components/Router';
 
-import './css/style.css'; // link CSS for the entire app
+// link CSS for the entire app
+import './css/style.css'; 
 
 // render takes JSX and DOM element to mount to page
 // React components need to be self-closing
-render(<App />, document.querySelector('#main'));
+render(<Router />, document.querySelector('#main'));
